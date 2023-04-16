@@ -1,0 +1,12 @@
+.contenedorItem{
+    text-align: center;
+    border: 1px solid #aaaaaa;
+    margin: 3rem;
+    background: rgb(238,238,238);
+    background: linear-gradient(180deg, rgba(238,238,238,1) 46%, rgba(22,21,20,1) 50%);
+width: 400px;
+}
+
+img{
+    width: 300px;
+}

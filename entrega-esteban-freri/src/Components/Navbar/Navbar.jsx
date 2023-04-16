@@ -5,12 +5,12 @@ import CartWidget from '../CartWidget/CartWidget'
 const Navbar = () => {
   return (
     <header>
-<h1> DroneMot</h1>
+<h1> Wonderfull</h1>
 <nav>
     <ul>
-        <li>Fotos</li>
-    <li>Videos</li>
-    <li>Contacto</li>
+        <li>Quienes somos?</li>
+    <li>Laminas</li>
+    <li>Soporte</li>
     </ul>
 </nav>
 <CartWidget/>
