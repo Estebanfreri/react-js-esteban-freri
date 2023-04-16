@@ -1,6 +1,8 @@
 .sub{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
     color: black;
+    background-color: rgb(170, 220, 220);
+    
 }
