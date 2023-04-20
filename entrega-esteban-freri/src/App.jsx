@@ -1,14 +1,26 @@
 import Navbar from "./Components/Navbar/Navbar";
-import ItemListConteiner from "./Components/ItemListConteiner/ItemListConteiner";
-import ItemDetail from "./Components/ItemDetail/ItemDetail";
-import ItemDetailContainer from "./Components/ItemDetailContainer/ItemDetalContainer";
+import ItemListContainer from "./Components/ItemListContainer/ItemListContainer";
+
+import ItemDetailContainer from "./Components/ItemDetailContainer/ItemDetailContainer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+
 function App() {
   return (
-   <>
-   <Navbar/>
-   <ItemListConteiner/>
-   <ItemDetailContainer/>
-   </>
+    <>
+      
+      <BrowserRouter>
+      <Navbar />
+        <Routes>
+          <Route path="/" element={<ItemListContainer/>} />
+          <Route path="/categoria/:idCategoria" element={<ItemListContainer/>}/>
+          <Route path="/item/:idItem" element={<ItemDetailContainer/>}/>
+
+        </Routes>
+
+      </BrowserRouter>
+
+    </>
   );
 }
 
