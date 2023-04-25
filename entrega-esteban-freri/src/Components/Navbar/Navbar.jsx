@@ -6,9 +6,9 @@ import CartWidget from '../CartWidget/CartWidget'
 const Navbar = () => {
   return (
     <header>
-      <link to={"/"}>
+      <Link to={"/"}>
         <h1> NininaShop</h1>
-      </link>
+      </Link>
       <nav>
         <ul>
           

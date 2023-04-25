@@ -3,7 +3,7 @@ import './ItemListContainer.css'
 import {getProducts, getProductosPorArtista} from '../../asyncmock'
 import ItemList from '../ItemList/ItemList'
 import { useParams } from 'react-router-dom'
-
+import React from 'react';
 
 const ItemListContainer = ({ greeting }) => {
   

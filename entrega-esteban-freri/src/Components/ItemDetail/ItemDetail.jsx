@@ -1,5 +1,5 @@
 import './ItemDetail.css'
-
+import React from 'react';
 const ItemDetail = ({id,nombre,precio,img}) => {
   return (
     <div className='contenedorItem'>
