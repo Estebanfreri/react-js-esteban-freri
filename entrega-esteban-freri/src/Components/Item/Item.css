@@ -1,5 +1,5 @@
 .cardProducto{
-    background-color: beige;
+    background-color: rgb(163, 163, 154);
 border-radius: 10px;
 width: 20rem;
 padding: 1rem;
@@ -16,8 +16,8 @@ object-fit: contain;
 }
 
 .btnProducto{
-    background-color: rgb(179, 190, 179);
-color: rgb(15, 13, 13);
+    background-color: rgb(15, 16, 17);
+color: rgb(143, 28, 28);
 font-size: 1.2rem;
 width: 8rem;
 border-radius: 10px;
