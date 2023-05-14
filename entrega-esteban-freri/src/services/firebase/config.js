@@ -7,12 +7,12 @@ import {getFirestore} from "firebase/firestore"
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBUI3m0ROlnM7oMxojQPftIDt7Kfd4K3hk",
-  authDomain: "nininashop-19170.firebaseapp.com",
-  projectId: "nininashop-19170",
-  storageBucket: "nininashop-19170.appspot.com",
-  messagingSenderId: "483992558726",
-  appId: "1:483992558726:web:4316ea56fa0dd54aac8507"
+  apiKey: "AIzaSyCu-T0JzfceOo2Vg76D325ipoHhd3v4tFY",
+  authDomain: "nininashop-3a586.firebaseapp.com",
+  projectId: "nininashop-3a586",
+  storageBucket: "nininashop-3a586.appspot.com",
+  messagingSenderId: "994131581235",
+  appId: "1:994131581235:web:fd8d2ad957e0c3351e4646"
 };
 
 // Initialize Firebase
