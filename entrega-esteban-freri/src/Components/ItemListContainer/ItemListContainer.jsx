@@ -13,10 +13,10 @@ const [products,setProducts] =useState([])
 const {idCategoria} = useParams();
 
 useEffect (()=>{
-  const misProductos = idCategoria ? query(collection(db,"productos"),where("idCat","==",idCategoria)):collection(db, "productos");
+  const Arte = idCategoria ? query(collection(db,"productos"),where("idCat","==",idCategoria)):collection(db, "productos");
 
 
-getDocs(misProductos)
+getDocs(Arte)
 .then(res=>{
   const nuevosProductos = res.docs.map( doc =>{
     const data = doc.data()
@@ -25,7 +25,7 @@ getDocs(misProductos)
   setProducts(nuevosProductos)
 })
 .catch(error => console.log(error))
-})
+},[idCategoria])
 // useEffect(()=>{
 // const funcionProductos = idCategoria ? getProductosPorArtista : getProducts;
 
