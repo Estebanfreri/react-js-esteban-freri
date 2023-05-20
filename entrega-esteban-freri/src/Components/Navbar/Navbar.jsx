@@ -7,19 +7,19 @@ const Navbar = () => {
   return (
     <header>
       <Link to={"/"}>
-        <h1> NininaShop</h1>
+        <h1> AYURNAMAT</h1>
       </Link>
       <nav>
         <ul>
           
           <li>
             <NavLink to={"/categoria/1"}>
-              Frida Kahlo
+              Esculturas
             </NavLink>
           </li>
           <li>
             <NavLink to={`/categoria/2`}>
-              Vincent van Gogh
+              Cuadros
             </NavLink>
           </li>
           <li>

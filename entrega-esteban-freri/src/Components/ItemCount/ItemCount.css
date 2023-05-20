@@ -1,18 +1,30 @@
+.boton_div{
+    display: flex;
+    flex-direction: row;
+   
+}
+
 button{
-    background-color: blue;
+    background-color: rgb(121, 11, 16);
     border: none;
     color:white;
-    padding: 10px 20px;
+    padding: 20px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 5px;
+    font-size: 20px;
+    margin: 3px;
     cursor: pointer;
+    margin-left: 20px;
 
+}
+
+button:hover{
+    background-color: rgb(157, 66, 71);
 }
 
 p{
     font-size: 24px;
     font-weight: bold;
+    margin-left: 20px;
 }

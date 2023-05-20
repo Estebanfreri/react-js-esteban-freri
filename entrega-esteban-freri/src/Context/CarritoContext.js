@@ -7,7 +7,7 @@ export const CarritoProvider = ({children})=>{
     const [carrito, setCarrito] = useState ([]);
 
 //Funcion agregar al carrito
-const agregarProducto = (item, cantidad) =>{
+const agregarProducto = (item, cantidad,) =>{
  if(!yaEstaEnCarrito(item.id)){
  setCarrito(prev => [...prev, {item, cantidad}]);
 } else{

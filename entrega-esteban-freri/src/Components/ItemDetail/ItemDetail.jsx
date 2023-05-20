@@ -20,18 +20,18 @@ const {agregarProducto} = useContext(CarritoContext);
 
     //Aca debo crear un objeto con el item y cantidad
 
-    const item = {id, nombre, precio};
-    agregarProducto(item, cantidad);
+    const item = {id, nombre, precio,};
+    agregarProducto(item, cantidad,);
 
   }
   return (
     <div className='contenedorItem'>
       <img src={img} alt={nombre} />
-      <h2>{nombre}</h2>
-      <h3>Precio:{precio}</h3>
+      <h2><u>{nombre}</u></h2>
+      <h3>Precio: $ {precio}</h3>
       <h3>ID:{id}</h3>
-      <p>Laminas impresas con calidad 4k.</p>
-    
+      <p>Envio gratis en dentro CABA.</p>
+      <hr></hr>
     {
       //Aca empleamos la logica del montaje y desmontaje de componentes
     }

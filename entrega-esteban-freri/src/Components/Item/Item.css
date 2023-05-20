@@ -1,7 +1,10 @@
 .cardProducto{
     background-color: rgb(163, 163, 154);
-border-radius: 10px;
+    border-color: rgb(249, 246, 246) rgb(85, 80, 80);
+    border-width: 5px;
+    border-style: solid;
 width: 20rem;
+height: 27rem;
 padding: 1rem;
 margin: 1rem;
 display: flex;

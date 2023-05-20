@@ -3,8 +3,8 @@ header {
     align-items: center;
     justify-content: space-around;
     border-bottom: 3px solid rgba(9, 12, 9, 0.246);
-    background: rgb(252,252,252);
-    background: linear-gradient(241deg, rgba(252,252,252,1) 44%, rgba(22,21,20,1) 62%);
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 16%, rgba(255,255,255,1) 58%, rgba(0,0,0,1) 85%);
 }
 
 li{

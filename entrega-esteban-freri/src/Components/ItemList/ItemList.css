@@ -2,5 +2,18 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-background-color: rgb(57, 53, 53);
+background-color: rgb(189, 181, 162);
+}
+
+.cardProducto{
+    background: rgb(249, 249, 247);
+background: linear-gradient(90deg, rgb(249, 249, 247) 16%, rgb(220, 224, 225) 50%, rgb(249, 249, 247) 85%);
+}
+
+h3{
+    
+    color: rgb(25, 25, 24);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
 }
