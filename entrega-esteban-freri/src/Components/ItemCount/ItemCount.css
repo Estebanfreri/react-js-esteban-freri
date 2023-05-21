@@ -5,7 +5,7 @@
 }
 
 button{
-    background-color: rgb(121, 11, 16);
+    background-color: rgb(178, 162, 116);
     border: none;
     color:white;
     padding: 20px 20px;
@@ -20,7 +20,7 @@ button{
 }
 
 button:hover{
-    background-color: rgb(157, 66, 71);
+    background-color: rgb(74, 59, 20);
 }
 
 p{

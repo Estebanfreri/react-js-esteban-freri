@@ -12,11 +12,21 @@
    
 }
 
+.Titulo:hover{
+
+    color: rgb(126, 96, 51);
+}
+
 .Titulo-descripcion{
     text-align: center;
     justify-content: center;
     width: 600px;
     margin: 120px;
+}
+
+.Titulo-descripcion:hover{
+
+    color: rgb(126, 96, 51);
 }
 
 .Titulo-imagen{
@@ -28,10 +38,16 @@ width: 500px;
 }
 
 .Titulo-productos{
-    background-color: rgb(189, 181, 162);
+    background-color: rgb(25, 24, 23);
     color: rgb(251, 250, 250);
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 50px;
     margin: 0px;
     padding: 30px;
+    text-align: end;
+}
+
+.Titulo-productos:hover{
+color: rgb(217, 178, 218);
 }
 

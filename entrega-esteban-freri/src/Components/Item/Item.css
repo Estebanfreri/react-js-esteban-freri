@@ -13,10 +13,19 @@ align-items: center;
 
 }
 
+.cardProducto:hover {
+    transform: scale(1.1);
+    background-color: #93a08a;
+    border-radius: 30px;
+    transition: all 2s;
+}
+
 .imgProducto{
     width: 150px;
 object-fit: contain;
 }
+
+
 
 .btnProducto{
     background-color: rgb(15, 16, 17);

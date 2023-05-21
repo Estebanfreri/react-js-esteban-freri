@@ -1,0 +1,16 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+color: rgb(255, 0, 13);
+background-color: rgba(156, 152, 148, 0.856);
+height: 600px;
+
+}
+
+input{
+    margin: 10px;
+    
+
+
+}

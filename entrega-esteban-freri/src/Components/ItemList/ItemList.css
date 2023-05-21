@@ -2,13 +2,12 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-background-color: rgb(189, 181, 162);
+background-image: url("https://e0.pxfuel.com/wallpapers/634/664/desktop-wallpaper-ancient-rome-floor-mosaic-roman-mosaic.jpg");
+
 }
 
-.cardProducto{
-    background: rgb(249, 249, 247);
-background: linear-gradient(90deg, rgb(249, 249, 247) 16%, rgb(220, 224, 225) 50%, rgb(249, 249, 247) 85%);
-}
+
+
 
 h3{
     

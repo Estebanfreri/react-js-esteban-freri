@@ -7,8 +7,9 @@ const products = [
     {nombre: " Busto Griego", precio: 100,stock:20, id:"6", img:"/img/bustogriego.jpg",idCat:"1"},
     {nombre: " Retrato de Joseph Roulin ", precio: 100,stock:20, id:"7", img:"/img/vg3.jpg",idCat:"2"},
     {nombre: " La iglesia de Auvers-sur-Oise", precio: 100,stock:20, id:"8", img:"/img/vg4.jpg",idCat:"2"},
-    {nombre: " Fridha", precio: 100,stock:20, id:"8", img:"/img/fr3.jpg",idCat:"2"},
-
+    {nombre: " Fridha", precio: 100,stock:20, id:"9", img:"/img/fr3.jpg",idCat:"2"},
+    {nombre: "La Columna Rota", precio: 120,stock:20, id:"9.1", img:"/img/fr2.jpg",idCat:"2"},
+    {nombre: "Autorretrato con mono", precio: 160,stock:20, id:"9.2", img:"/img/fr2.jpg",idCat:"2"}
 ]
 
 export const getProducts = ()=>{
