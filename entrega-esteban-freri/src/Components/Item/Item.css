@@ -1,7 +1,7 @@
 .cardProducto{
-    background-color: rgb(163, 163, 154);
-    border-color: rgb(249, 246, 246) rgb(85, 80, 80);
-    border-width: 5px;
+    background-color: rgb(188, 188, 185);
+    border-color: rgb(2, 2, 32) rgb(85, 80, 80);
+    border-width: 2px;
     border-style: solid;
 width: 20rem;
 height: 27rem;
@@ -11,14 +11,32 @@ display: flex;
 flex-direction: column;
 align-items: center;
 
+
 }
 
 .cardProducto:hover {
     transform: scale(1.1);
-    background-color: #93a08a;
+background-image:url("https://img.freepik.com/fotos-premium/textura-pared-marmol-fondo-blanco-diseno_124507-13517.jpg?w=2000");
+
+  
     border-radius: 30px;
     transition: all 2s;
 }
+
+.cardProducto h2 {
+color: rgb(5, 5, 5);
+font-size: 1.3rem;
+}
+
+.cardProducto h3 {
+    color: rgb(5, 5, 5);
+    font-size: 1rem;
+    }
+
+    .cardProducto p {
+        color: rgb(5, 5, 5);
+        font-size: 1rem;
+        }
 
 .imgProducto{
     width: 150px;

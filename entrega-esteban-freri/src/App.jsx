@@ -10,7 +10,8 @@ import Checkout from "./Components/Checkout/Checkout";
 function App() {
   return (
     <>
-      
+    
+    
       <BrowserRouter>
       <CarritoProvider>
       <Navbar />
