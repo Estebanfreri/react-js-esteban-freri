@@ -14,7 +14,7 @@ const ItemListContainer = ({ greeting }) => {
   const { idCategoria } = useParams();
 
   useEffect(() => {
-    const Arte = idCategoria ? query(collection(db, "Arte"), where("idCat", "==", idCategoria)) : collection(db, "Arte");
+    const Arte = idCategoria ? query(collection(db, "Arte"), where("idCat", "==",parseInt(idCategoria))) : collection(db, "Arte");
 
 
     getDocs(Arte)
