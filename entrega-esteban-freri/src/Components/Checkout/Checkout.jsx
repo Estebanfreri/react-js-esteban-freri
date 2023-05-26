@@ -55,6 +55,7 @@ const Checkout = () => {
 
 
     return (
+        <div>
         <div className="formulario">
             <h2>Checkout</h2>
             <form onSubmit={handleSubmit}>
@@ -100,7 +101,7 @@ const Checkout = () => {
                 <strong> Gracias por tu compra!! Tu numero de orden es{ordenId}</strong>
             }
         </div>
-
+        </div>
     )
 }
 

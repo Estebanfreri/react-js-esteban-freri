@@ -1,6 +1,7 @@
 .Index{
     display: flex;
     flex-direction: row;
+    margin: 10px;
 
 }
 
@@ -14,33 +15,34 @@
 
 .Titulo:hover{
 
-    color: rgb(126, 96, 51);
+    color: rgb(76, 48, 48);
 }
 
 .Titulo-descripcion{
-  background-color: rgb(213, 216, 216);
+  background-color: rgb(192, 193, 193);
     text-align: center;
     justify-content: center;
-    width: 700px;
-    margin: 120px;
+    width: 950px;
+    padding: 130px;
+    
     
 }
 
 .Titulo-descripcion:hover{
 
-    color: rgb(126, 96, 51);
+    color: rgb(76, 48, 48);
 }
 
 .Titulo-imagen{
 background-image:url("https://i.pinimg.com/originals/c6/aa/ca/c6aaca012bec586390fdfa29f406546e.jpg");
 background-repeat:no-repeat;
 height: 700px;
-width: 500px;
+width: 700px;
 
 }
 
 .Titulo-productos{
-
+   
     color: rgb(12, 12, 12);
     font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 50px;

@@ -46,7 +46,7 @@ const ItemListContainer = ({ greeting }) => {
           <hr />
           <p> Presentamos una colección de reproducciones atesanales de piezas de arte de todos los tiempos, realizadas a mano por los mejores talleres, por lo que son obras que alcanzan el valor de la pieza "única".
             Estas obras de arte ertesanas son más que un simple elemento decorativo. Son un bello recuerdo u objeto de culto y se pueden convertir en regalos institucionales o de empresa.</p>
-        
+            <hr />
         </div>
       </div>
 
