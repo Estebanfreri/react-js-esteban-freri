@@ -25,12 +25,13 @@ const {agregarProducto} = useContext(CarritoContext);
 
   }
   return (
+    <div className='fondoContenedorItem'>
     <div className='contenedorItem'>
       <img src={img} alt={nombre} />
-      <h2><u>{nombre}</u></h2>
+      <h2>{nombre}</h2>
       <h3>Precio: $ {precio}</h3>
-      <h3>ID:{id}</h3>
-      <p>Envio gratis en dentro CABA.</p>
+      <h4>ID:{id}</h4>
+      <p>Envio gratis en dentro <u>CABA.</u></p>
       <hr></hr>
     {
       //Aca empleamos la logica del montaje y desmontaje de componentes
@@ -38,6 +39,7 @@ const {agregarProducto} = useContext(CarritoContext);
     {
       agregarCantidad > 0 ? ( <Link to="/cart">Terminar compra </Link> ) : (<ItemCount inicial={1} stock={stock}funcionAgregar={manejadorCantidad}/>)
     }
+    </div>
     </div>
   )
 }

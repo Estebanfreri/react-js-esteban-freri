@@ -1,8 +1,8 @@
 .Index{
     display: flex;
     flex-direction: row;
-    margin: 10px;
-
+    margin: 20px;
+    
 }
 
 .Titulo{
@@ -23,7 +23,10 @@
     text-align: center;
     justify-content: center;
     width: 950px;
-    padding: 130px;
+   
+    padding: 120px;
+    margin-top: 20px;
+    
     
     
 }
