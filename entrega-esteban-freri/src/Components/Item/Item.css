@@ -1,6 +1,6 @@
 .cardProducto{
-    background-color: rgb(188, 188, 185);
-    border-color: rgb(2, 2, 32) rgb(85, 80, 80);
+    background-color: rgb(234, 221, 194);
+    border-color: rgb(2, 2, 32) rgb(86, 50, 9);
     border-width: 2px;
     border-style: solid;
 width: 20rem;
@@ -16,7 +16,7 @@ align-items: center;
 
 .cardProducto:hover {
     transform: scale(1.1);
-background-image:url("https://img.freepik.com/fotos-premium/textura-pared-marmol-fondo-blanco-diseno_124507-13517.jpg?w=2000");
+background-color:rgb(246, 225, 174) ;
 
   
     border-radius: 30px;

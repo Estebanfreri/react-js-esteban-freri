@@ -2,7 +2,9 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-background-image: url("https://img.freepik.com/vector-premium/6d694cb994eb36341a112c34f305ec5e-2_541634-21.jpg");
+background-image: url("https://img.freepik.com/foto-gratis/textura-pared-grunge_1194-8832.jpg");
+background-repeat: repeat;
+background-size: contain;
 padding: 120px;
 }
 

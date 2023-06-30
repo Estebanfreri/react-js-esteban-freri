@@ -55,7 +55,7 @@ const Checkout = () => {
 
 
     return (
-        <div>
+        <div className="fondo_formulario">
         <div className="formulario">
             <h2>Checkout</h2>
             <form onSubmit={handleSubmit}>

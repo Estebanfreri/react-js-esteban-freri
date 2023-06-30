@@ -7,19 +7,19 @@ const Navbar = () => {
   return (
     <header>
       <Link to={"/"}>
-        <h1> AYURNAMAT</h1>
+        <h1> Imik Zimik</h1>
       </Link>
       <nav>
-        <ul>
+        <ul >
           
           <li>
             <NavLink to={"/categoria/1"}>
-              Esculturas
+              Totem 
             </NavLink>
           </li>
           <li>
             <NavLink to={`/categoria/2`}>
-              Cuadros
+            Paintings
             </NavLink>
           </li>
           <li>

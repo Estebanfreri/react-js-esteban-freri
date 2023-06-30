@@ -5,12 +5,12 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { CarritoProvider } from "./Context/CarritoContext";
 import Cart from "./Components/Cart/Cart";
 import Checkout from "./Components/Checkout/Checkout";
-
+import { Carousel } from "bootstrap";
 // import Formulario from './Formulario/Formulario';
 function App() {
   return (
     <>
-    
+   
     
       <BrowserRouter>
       <CarritoProvider>

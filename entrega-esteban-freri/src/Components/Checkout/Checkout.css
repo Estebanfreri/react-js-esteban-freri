@@ -3,11 +3,17 @@
     flex-direction: column;
     text-align:center;
 color: rgb(255, 0, 13);
-background-color: rgba(156, 152, 148, 0.856);
-height: 600px;
+background-color: rgba(241, 208, 174, 0.856);
+border: 2px solid rgb(21, 11, 11);
+height: 500px;
 width: 400px;
-margin: 30px;
+margin: 10px;
 
+}
+
+.fondo_formulario{
+    background-image: url("https://img.freepik.com/vector-premium/diseno-fondo-textura-abstracta-acuarela_154864-1261.jpg?w=360") ;
+background-size: contain;
 }
 
 input{

@@ -1,6 +1,19 @@
 .divCompraFinal{
-    background-color: rgb(205, 211, 220);
+    background-color: rgb(148, 90, 59);
+    border: 2px solid #7d633d;
+    color: black;
+  border-radius: 40px;
     width: 500px;
-    margin: 20px;
+   margin: 30px;
+   margin-left: 40px;
     
+}
+h4{
+    font-size: 30px;
+    text-align: center;
+}
+
+.divCompraFinalDetalle{
+    display: flex;
+    justify-content: center;
 }

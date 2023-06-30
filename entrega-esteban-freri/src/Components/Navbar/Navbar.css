@@ -3,17 +3,18 @@ header {
     align-items: center;
     justify-content: space-around;
     border-bottom: 3px solid rgba(9, 12, 9, 0.246);
-    background: rgb(0,0,0);
-background: linear-gradient(90deg, rgba(0,0,0,1) 16%, rgba(255,255,255,1) 58%, rgba(0,0,0,1) 85%);
+    background-color: rgb(249, 248, 189);
 }
 
 li{
     display: inline-block;
     margin: 1rem;
+   
     
 }
 
 h1{
-    color: white;
+    color: rgb(0, 0, 0);
 
 }
+

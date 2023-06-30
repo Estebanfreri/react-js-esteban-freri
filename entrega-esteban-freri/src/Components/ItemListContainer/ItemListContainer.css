@@ -1,7 +1,7 @@
 .Index{
     display: flex;
     flex-direction: row;
-    margin: 20px;
+    margin: 10px;
     
 }
 
@@ -9,22 +9,23 @@
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 40px;
     text-align: center;
-    color: rgb(14, 13, 13);
+    color: rgb(0, 0, 0);
    
 }
 
 .Titulo:hover{
 
-    color: rgb(76, 48, 48);
+    color: rgb(36, 32, 32);
 }
 
 .Titulo-descripcion{
-  background-color: rgb(192, 193, 193);
+    background-color: rgb(249, 248, 189);
+  color: rgb(0, 0, 0);
     text-align: center;
     justify-content: center;
-    width: 950px;
-   
-    padding: 120px;
+    width:1280px;
+    height: 500px;
+    
     margin-top: 20px;
     
     
@@ -33,28 +34,30 @@
 
 .Titulo-descripcion:hover{
 
-    color: rgb(76, 48, 48);
+    color: rgb(36, 32, 32);
 }
 
 .Titulo-imagen{
-background-image:url("https://i.pinimg.com/originals/c6/aa/ca/c6aaca012bec586390fdfa29f406546e.jpg");
+background-image:url("https://www.gentleman.excelsior.com.mx/wp-content/uploads/2022/09/Captura-de-Pantalla-2022-09-21-a-las-10.21.31-a.-m..png");
 background-repeat:no-repeat;
-height: 700px;
-width: 700px;
+
+height: 500px;
+width: 580px;
 
 }
 
 .Titulo-productos{
-   
+   background-color: rgb(249, 248, 189);
     color: rgb(12, 12, 12);
     font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 50px;
-    margin: 0px;
+    
     padding: 30px;
     text-align: center;
 }
 
 .Titulo-productos:hover{
-color: rgb(77, 76, 77);
+    color: rgb(72, 23, 11);
 }
+
 

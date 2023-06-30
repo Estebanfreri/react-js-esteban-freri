@@ -42,11 +42,13 @@ const ItemListContainer = ({ greeting }) => {
       <div className='Index' >
         <img className='Titulo-imagen' />
         <div className='Titulo-descripcion'>
-          <h2 className='Titulo'>  AYURNAMAT {greeting} </h2>
+          <h2 className='Titulo'>  Imik Zimik {greeting} </h2>
           <hr />
-          <p> Presentamos una colección de reproducciones atesanales de piezas de arte de todos los tiempos, realizadas a mano por los mejores talleres, por lo que son obras que alcanzan el valor de la pieza "única".
-            Estas obras de arte ertesanas son más que un simple elemento decorativo. Son un bello recuerdo u objeto de culto y se pueden convertir en regalos institucionales o de empresa.</p>
+          <p> Somos fabricantes, para tener un mejor control de nuestro estándar de calidad y acabados, contamos con diferentes talleres que nos ayudan a cubrir todas las necesidades de nuestros clientes. Utilizamos 
+maderas duras tropicales compradas a aserraderos autorizados por el gobierno, estamos por iniciar una reforestación plan, devolver a la tierra todo lo que nos ha dado. 
+</p>
             <hr />
+            
         </div>
       </div>
 
